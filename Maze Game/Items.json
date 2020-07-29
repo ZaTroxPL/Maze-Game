@@ -1,0 +1,24 @@
+{
+  "Treasures": [
+    {
+      "Name": "Coins",
+      "GainWealth": 10
+    }
+  ],
+  "Threats": [
+    {
+      "Name": "Bomb",
+      "WealthOpportunity": 100,
+      "Action": {
+        "Name": "Disarm"
+      }
+    },
+    {
+      "Name": "Troll",
+      "WealthOpportunity": 50,
+      "Action": {
+        "Name": "Club"
+      }
+    }
+  ]
+}
