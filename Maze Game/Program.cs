@@ -110,8 +110,7 @@ namespace Maze_Game
                 endGame = UserNextAction(userInput, settings.Player, maze);
             }
             while (endGame == false);
-            Console.ReadLine();
-            // or maybe put finished game screen here        
+            Console.ReadLine();   
         }
 
         private static bool UserNextAction(string userInput, Player player, List<Room> maze)
@@ -225,8 +224,7 @@ namespace Maze_Game
             {
                 Passage passage = player.Location.Passages.Where(p => p.Direction == chosenDirection).First();
                 if (passage.IsExit == true)
-                {
-                    // TODO: Game finished screen
+                {                    
                     Console.Clear();
                     Console.WriteLine(CenterText("Well done, you have found the exit."));
                     Console.WriteLine(CenterText($"You finished the game with {player.Wealth} Wealth"));
