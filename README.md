@@ -1,5 +1,5 @@
 # Maze-Game
-Text based game in the console
+Text based game in the console (finished), WinForms (work in progress) and WPF (not even started) 
 
 There are 2 projects inside this solution:
  - The 1st project "Maze Game" is <b>finished</b> and you can play the game with it, but it runs in the console.
